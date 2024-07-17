@@ -1,0 +1,19 @@
+Command Pattern wraps all the requests into one single object as a command
+and pass it to the invoker class.In command pattern the commands use the same interface
+so as to have the requests from the same sender
+
+In the ButtonOperation package:
+     AddCommand
+                        : are the command classes that implements Command interface
+     SubtractCommand
+
+     CommandMainClass   : in the main class
+
+     RequestCollection  : is the class that manages all the requests.It is the
+                          invoker class.
+
+     ButtonOperations   : is the logic class.In this package it is addition
+                          and subtraction logic.
+
+     Command            : is the interface class.
+

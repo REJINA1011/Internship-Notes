@@ -1,0 +1,4 @@
+Strategy pattern focuses on the run time change of the operation. In this pattern,
+the behavior of a context object changes as per the strategy object.
+
+Here a single object's behavior can be changed to multiple behaviors in the run time.

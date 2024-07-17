@@ -1,0 +1,8 @@
+Iterator Pattern is the pattern that is concerned with the traverse from one
+element to the other in collection without exposing the type of representation.
+(list, stack, tree, etc.).
+
+Iterator pattern is useful when the extraction of element is necessary from a
+complex data structure like Tree by separating the extraction the traversal
+behavior of a collection into a separate object called "iterator".
+
